@@ -39,11 +39,11 @@ log.info(f'itemcf 召回，mode: {mode}')
 
 def cal_sim(df: pd.DataFrame) -> (dict[int, dict[int, float]], dict[int, list]):
     """
-    计算物品之间的相似度
+    计算物品之间的相似度。
 
     Args:
         df (`pd.DataFrame`):
-            包含用户点击数据的数据集
+            包含用户点击数据的数据集。
 
     Returns:
         Tuple:
@@ -114,7 +114,7 @@ def recall(df_query: pd.DataFrame,
 
     # 遍历查询 DataFrame 中的每一个用户和物品ID
     for user_id, item_id in tqdm(df_query.values):
-        rank = {}  # 初始化字典，用于存储推荐物品及其得分
+        rank = defaultdict(int)  # 初始化字典，用于存储推荐物品及其得分
 
         # 如果用户ID不在用户物品字典中，则跳过该用户
         if user_id not in user_item_dict:

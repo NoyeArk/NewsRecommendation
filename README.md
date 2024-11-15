@@ -26,22 +26,22 @@
 
 ### 2.2 字段描述
 
-| 特征名称                    | 描述                        |
-|-------------------------|---------------------------|
-| user_id                 | 用户id                      |
-| click_article_id        | 点击文章id                    |
-| click_timestamp         | 点击时间戳                     |
-| click_environment       | 点击环境                      |
-| click_deviceGroup       | 点击设备组                     |
-| click_os                | 点击操作系统                    |
-| click_country           | 点击城市                      |
-| click_region            | 点击地区                      |
-| click_referrer_type     | 点击来源类型                    |
-| article_id              | 文章id，与click_article_id相对应 |
-| category_id             | 文章类型id                    |
-| created_at_ts           | 文章创建时间戳                   |
-| words_count             | 文章字数                      |
-| emb_1,emb_2,...,emb_249 | 文章embedding向量表示           |
+| 序号 | 特征名称                    | 描述                        |
+|----|-------------------------|---------------------------|
+| 1  | user_id                 | 用户id                      |
+| 2  | click_article_id        | 点击文章id                    |
+| 3  | click_environment       | 点击环境                      |
+| 4  | click_deviceGroup       | 点击设备组                     |
+| 5  | click_os                | 点击操作系统                    |
+| 6  | click_timestamp         | 点击时间戳                     |
+| 7  | click_country           | 点击城市                      |
+| 8  | click_region            | 点击地区                      |
+| 9  | click_referrer_type     | 点击来源类型                    |
+| 10 | article_id              | 文章id，与click_article_id相对应 |
+| 11 | category_id             | 文章类型id                    |
+| 12 | created_at_ts           | 文章创建时间戳                   |
+| 13 | words_count             | 文章字数                      |
+| 14 | emb_1,emb_2,...,emb_249 | 文章embedding向量表示           |
 
 ---
 

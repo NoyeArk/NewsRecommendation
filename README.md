@@ -1,4 +1,4 @@
-# 新闻推荐
+# [新闻推荐](https://tianchi.aliyun.com/competition/entrance/531842/introduction)
 
 ## 1 比赛介绍
 
@@ -61,3 +61,11 @@ user1, article1, article2, article3, article4, article5
 ## 4 算法设计
 
 参考[分享](https://tianchi.aliyun.com/forum/post/170754)
+
+---
+
+## 5 记录
+
+1. 11-18: 提交 baseline，分数为 0.0984
+
+![img.png](image/1118.png)

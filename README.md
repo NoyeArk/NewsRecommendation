@@ -68,4 +68,4 @@ user1, article1, article2, article3, article4, article5
 
 1. 11-18: 提交 baseline，分数为 0.0984
 
-![img.png](image/1118.png)
+![img.png](image/first_commit.png)
